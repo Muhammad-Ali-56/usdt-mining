@@ -65,6 +65,7 @@ Boost mining lasts 1 hour and requires 2 ads
 Rewards open in Chrome custom tabs
 
 Project Structure
+```
 lib/
 ├── main.dart                 # Entry point
 ├── theme/
@@ -86,7 +87,7 @@ lib/
 └── widgets/
     ├── mining_card.dart     # Mining card
     └── reward_card.dart     # Daily reward card
-
+```
 License
 
 This project is for educational purposes only.
