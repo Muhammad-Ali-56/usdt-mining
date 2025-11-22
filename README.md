@@ -30,6 +30,7 @@ A sleek and modern Flutter app for USDT mining with professional crypto design, 
 dependencies {
     classpath 'com.google.gms:google-services:4.4.0'
 }
+```
 
 3. Configure iOS
 
