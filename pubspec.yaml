@@ -1,0 +1,63 @@
+name: usdtmining
+description: "Bruno USDT Miner - Cryptocurrency Mining App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase & Google
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  firebase_messaging: ^16.0.4
+  firebase_in_app_messaging: ^0.9.0+4
+  firebase_database: ^12.1.0
+  firebase_remote_config: ^6.1.2
+  google_sign_in: ^7.2.0
+  google_mobile_ads: ^6.0.0
+  facebook_app_events: ^0.21.0
+
+  # Storage & Preferences
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.0
+  provider: ^6.1.2
+
+  # UI & Animations
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  intl: ^0.20.2
+  confetti: ^0.8.0
+  flutter_local_notifications: ^19.5.0
+  lottie: ^3.1.2
+  clipboard: ^2.0.2
+  share_plus: ^12.0.1
+  video_player: ^2.9.2
+  in_app_purchase: ^3.1.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/anim/
+    - assets/videos/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic
